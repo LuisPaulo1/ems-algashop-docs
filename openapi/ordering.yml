@@ -636,7 +636,7 @@ components:
           type: string
           example: "johndoe@email.com"
           nullable: false
-          x-validation: [ "email", "notBlank" ]
+          x-validation: ["email", "notBlank"]
         document:
           type: string
           example: "12345"
